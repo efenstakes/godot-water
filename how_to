@@ -1,0 +1,23 @@
+
+
+Create a CSGMesh or a mesh instance.
+  If mesh instance, give it a mesh like cube
+  
+ add a material, -> spatial
+ 
+ Make material transparent in the transparency section or flags section
+ 
+ in albedo give it a color, blue works best for water. alpha of more than 200 works well
+ 
+ make roughness something like 0.03
+ 
+ download a normal map texture
+ 
+ enable normal map and set the texture to the downloaded texture
+ 
+ set normal map scale to a good scale
+ 
+ you can play with the uv1_offset x or y to see moving water waves.
+  self.material.uv1_offset.x += delta * .1
+  animation player
+ 
